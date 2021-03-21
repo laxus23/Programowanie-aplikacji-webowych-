@@ -22,9 +22,6 @@ class InputsApp{
         this.input4 = document.querySelector(`#input4`);
         this.sum = document.querySelector(`#sum`)
     }
-    updateValues(){
-        //var value1 = +this.input1.addEventListener("input")
-    }
     convertToInt(){
         var value1 = parseInt(this.input1.value);
         var value2 = parseInt(this.input2.value);
@@ -33,14 +30,12 @@ class InputsApp{
     }
     result(){
         
-        //var xD = parseInt(this.input1.value)
         this.sum = parseInt(this.input1.value) + parseInt(this.input2.value)
-        var xD = document.querySelector(`#sum`)
-        xD.value
+        var su = document.querySelector(`#sum`)
+        su.value
         document.querySelector(`#sum`).value = this.sum.toString()
         console.log("noooooo: "+document.querySelector(`#sum`).innerHTML)
         console.log(document.querySelector(`#sum`))
-        //console.log(this.sum)
     }
     
 }
