@@ -1,0 +1,16 @@
+.inputs-section input {
+    display: block;
+}
+.input-container {
+    display: flex;
+}
+
+h2.numberInput{
+    text-align: left;
+}
+
+h2 {
+    color: #5a15fa;
+    border-bottom:1px solid #CCC;
+    text-align:left;
+}
